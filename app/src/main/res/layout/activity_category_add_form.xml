@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryAddForm"
+    android:padding="20dp">
+    <TextView
+        android:id="@+id/addANewCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/add_a_new_category"
+        android:textSize="24sp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/categoryNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/category_name"
+        android:layout_marginBottom="10dp">
+
+    </EditText>
+
+
+
+    <RadioGroup
+        android:id="@+id/categoryTypeOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:weightSum="2"
+        >
+        <RadioButton
+            android:id="@+id/categoryExpenseOption"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/expense"
+            android:layout_weight="1">
+
+        </RadioButton>
+
+        <RadioButton
+            android:id="@+id/categoryIncomeOption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/income">
+
+        </RadioButton>
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/iconSpinner"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:weightSum="2">
+    <Button
+        android:id="@+id/addCategory"
+        style="@style/buttonMyStyle"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/add">
+
+    </Button>
+        <Button
+            android:id="@+id/deleteCategoryButton"
+            style="@style/buttonMyStyle"
+            android:layout_weight="1"
+            android:backgroundTint="@color/outrageous_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/delete">
+
+        </Button>
+    </LinearLayout>
+
+
+</LinearLayout>

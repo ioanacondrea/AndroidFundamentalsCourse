@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "810184904917",
+    "firebase_url": "https://androidproject-a79c3-default-rtdb.firebaseio.com",
+    "project_id": "androidproject-a79c3",
+    "storage_bucket": "androidproject-a79c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:810184904917:android:0336a1c9e95b031d51925c",
+        "android_client_info": {
+          "package_name": "com.ioana.temaandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "810184904917-qfhaetqc35aeuo8vo1fe0gdv4lu0nk43.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAREtklIBZVX1pliFtPfnL9SkY6Ay5DRdw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "810184904917-qfhaetqc35aeuo8vo1fe0gdv4lu0nk43.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

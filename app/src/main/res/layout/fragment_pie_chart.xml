@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PieChartFragment"
+    android:weightSum="10"
+    android:padding="16dp">
+
+ <TextView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:textSize="20sp"
+     android:text="@string/expense_and_income_by_category"
+     android:layout_weight="0.3"
+     android:gravity="center">
+
+ </TextView>
+
+    <TextView
+        android:layout_marginTop="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/expense"
+        android:layout_weight="0.2"
+        android:gravity="center">
+
+    </TextView>
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/expensePieChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="4.5"
+        android:layout_marginTop="16dp"
+        >
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:text="@string/income"
+        android:layout_weight="0.2"
+        android:layout_marginTop="16dp"
+        android:gravity="center">
+
+    </TextView>
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/incomePieChart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_weight="4.5"
+        >
+
+    </com.github.mikephil.charting.charts.PieChart>
+
+</LinearLayout>

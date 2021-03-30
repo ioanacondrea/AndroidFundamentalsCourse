@@ -7,4 +7,12 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="parisblue">#094981</color>
+    <color name="gunmetal">#153243</color>
+    <color name="indigo_dye">#284B63</color>
+    <color name="orange_soda">#F06449</color>
+    <color name="outrageous_orange">#FF784F</color>
+    <color name="aqua_green">#3ec978</color>
+    <color name="baby_powder">#FBFEF9</color>
+    <color name="warning_red">#ed6339</color>
 </resources>

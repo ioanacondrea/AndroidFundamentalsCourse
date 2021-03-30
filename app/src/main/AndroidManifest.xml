@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ioana.myapplication">
+    package="com.ioana.temaandroid">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
 
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/laucher_icon"
         android:supportsRtl="true"
-        android:theme="@style/Theme.MyApplication">
-        <activity android:name=".MainActivity">
+        android:theme="@style/Theme.TemaAndroid">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-7253004774609125~3839511776"/>
+
+        <activity android:name=".CategoryList" />
+        <activity android:name=".CategoryAddForm" />
+        <activity android:name=".LoginScreen" >
+
+        </activity>
+        <activity android:name=".TransactionAddForm" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/title_activity_navigation_drawer"
+            android:theme="@style/Theme.TemaAndroid.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
     </application>
 

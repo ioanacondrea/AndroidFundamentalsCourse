@@ -1,4 +1,4 @@
-package com.ioana.myapplication;
+package com.ioana.temaandroid;
 
 import org.junit.Test;
 
